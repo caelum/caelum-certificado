@@ -1,0 +1,84 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	display: flex;
+}
+
+.informacoes {
+	position: absolute;
+	top: 27.2vh;
+	width: 72vh;
+	margin-left: 7.8vh;
+	height: 58vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.certificado {
+	display: block;
+	height: 100vh;
+}
+
+.nomeAluno {
+	font-size: 3.40vh;
+	font-weight: 800;
+}
+
+.participou {
+	font-size: 1.9vh;
+	margin-bottom: 2vh;
+}
+
+.descricao {
+	font-size: 3.2vh;
+	font-weight: 700;
+	margin-bottom: 2vh;
+}
+
+.periodo {
+	font-size: 2.5vh;
+	text-align: center;
+}
+
+.duracao {
+	font-size: 2vh;
+	font-weight: 800;
+}
+
+.data {
+	font-size: 1.9vh;
+}
+
+.instrutor {
+	width: 34vh;
+	text-align: center;
+	font-size: 2vh;
+	font-weight: 600;
+}
+
+.--upper {
+	text-transform: uppercase;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.--hidden {
+	display: none;
+}
+
+@media print {
+	@page {
+		size: landscape
+	}
+	.form {
+		display: none;
+	}
+}

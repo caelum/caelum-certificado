@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Certificado</title>	
+	<link rel="stylesheet" href="certifcado.css">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+	<img class="certificado" src="certificado-novo.png">
+	<div class="informacoes">
+	  <div class="informacoes-aluno">
+		<div id="nomeAluno" class="nomeAluno --upper">Exemplo XPTO</div>
+		<br/>
+		<div class="participou">Participou do curso</div>
+		<div id="descricao" class="descricao --upper">Desenvolvendo na prática com spring e testes</div>
+		<div>
+		  <div class="duracao --upper"><span id="duracao">32</span> horas</div>
+		  <div class="data">Iniciado em <span id="inicio">27/10/2023</span> e concluido em <span id="fim">29/11/2024</span></div>
+		</div>
+	  </div>
+	  <div id="instrutor" class="instrutor">Splinter</div>
+	</div>
+	</img>
+	<div>
+		<form id="form" class="form" method="GET">
+			<label for="name">Nome</label>
+			<input id="name" name="name" type="text" required="required"/>
+
+			<label for="curso">Curso</label>
+			<input id="curso" name="curso" type="text" required="required"/>
+
+			<label for="cargaHoraria">Carga Horaria</label>
+			<input id="cargaHoraria" name="cargaHoraria" type="number" required="required"/>
+
+			<label for="dataInicio">Data Inicio</label>
+			<input id="dataInicio" name="dataInicio" type="date" required="required"/>
+
+			<label for="dataFim">Data Fim</label>
+			<input id="dataFim" name="dataFim" type="date" required="required"/>
+
+			<label for="nomeInstrutor">Nome Instrutor</label>
+			<input id="nomeInstrutor" name="nomeInstrutor" type="text" required="required"/>
+
+			<br/>
+			<br/>
+			<input type="submit"/>
+		</form>
+
+	</div>
+</body>
+<script src="content.js"></script>
+</html>
